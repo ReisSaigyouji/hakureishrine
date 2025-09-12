@@ -114,7 +114,19 @@
         <article id="donate">
             <h2>Hakurei Shrine has no money!</h2>
             <p>Please give us some or Reimu will starve</p>
-
+            <form action="https://httpbin.org/get" method="get">
+                <label for="amount">Choose Amount in Yen:</label>
+                <select name="amount" id="amount">
+                    <option value="0">0 ;(</option>
+                    <option value="10">10 :(</option>
+                    <option value="50">50 :|</option>
+                    <option value="100">100 :)</option>
+                    <option value="500">500 :D</option>
+                    <option value="1000">1000 xD</option>
+                </select>
+                <br>
+                <button type="submit">Donate</button>
+            </form>
         </article>
     </main>
 
