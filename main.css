@@ -28,4 +28,9 @@ table, tr, td, th, caption {
 
 h1  {
     text-align: center;
+    color: red;
+}
+
+h2, h3, h4, h5, h6 {
+    color: rgb(200, 0, 0);
 }
