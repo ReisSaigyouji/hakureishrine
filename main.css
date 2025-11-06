@@ -39,6 +39,10 @@ input, button, select {
     font: inherit;
 }
 
+ul {
+    list-style-type: -moz-japanese-informal;
+}
+
 .thebutton {
     color: aliceblue;
     background-color: rgb(200, 0, 0);
