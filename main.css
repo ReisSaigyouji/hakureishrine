@@ -40,7 +40,14 @@ input, button, select {
 }
 
 ul {
-    list-style-type: -moz-japanese-informal;
+    list-style-type: circle;
+    color: red;
+}
+
+.container {
+    border: 2px double red;
+    padding: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .thebutton {
