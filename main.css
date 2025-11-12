@@ -9,6 +9,7 @@ body {
 
 a {
     color: aliceblue;
+    text-decoration: none;
 }
 
 a:visited {
@@ -40,8 +41,15 @@ input, button, select {
 }
 
 ul {
-    list-style-type: circle;
-    color: red;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
 }
 
 .container {
